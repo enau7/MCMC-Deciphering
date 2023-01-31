@@ -95,7 +95,7 @@ def compute_log_probability_by_counts(transition_counts, text, permutation_map, 
     p = np.log(frequency_statistics[c0])
     
     p_map_indices = {}
-    for c1, c2 in permutation_map.iteritems():
+    for c1, c2 in permutation_map.items():
         p_map_indices[char_to_ix[c1]] = char_to_ix[c2]
     
     indices = [value for (key, value) in sorted(p_map_indices.items())]
@@ -162,7 +162,7 @@ def propose_a_move(state):
     by moving one step (randomly swapping two characters)
     """
     new_state = {}
-    for key, value in state.iteritems():
+    for key, value in state.items():
         new_state[key] = value
     new_state["permutation_map"] = move_one_step(state["permutation_map"])
     return new_state

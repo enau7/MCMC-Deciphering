@@ -25,7 +25,7 @@ def generate_random_permutation_map(chars):
     cx2 = az_list()
     random.shuffle(cx2)
     p_map = generate_identity_p_map(chars)
-    for i in xrange(len(cx)):
+    for i in range(len(cx)):
         p_map[cx[i]] = cx2[i]
         
     return p_map

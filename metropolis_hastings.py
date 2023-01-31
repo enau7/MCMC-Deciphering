@@ -85,8 +85,8 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
                 if pretty_state is not None:
                     s = "Current state : " + pretty_state(state)
                 
-                print "Entropy : ", -p1, ", Error : ", error, ", Acceptance : ", acceptance
-                print s
+                print("Entropy : ", -p1, ", Error : ", error, ", Acceptance : ", acceptance)
+                print(s)
                 
                 if acceptance < tolerance:
                     break

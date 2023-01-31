@@ -34,11 +34,11 @@ def main(argv):
    decode = options.decode
    
    if filename is None:
-      print "Input file is not specified. Type -h for help."
+      print("Input file is not specified. Type -h for help.")
       sys.exit(2)
 
    if decode is None:
-      print "Decoding file is not specified. Type -h for help."
+      print("Decoding file is not specified. Type -h for help.")
       sys.exit(2)
 
    char_to_ix, ix_to_char, tr, fr = compute_statistics(filename)
@@ -59,13 +59,13 @@ def main(argv):
       entropies.extend(lps)
       i += 1
    
-   p = zip(states, entropies)
+   p = list(zip(states, entropies))
    p.sort(key=lambda x:x[1])
    
-   print "Best Guesses : "
+   print("Best Guesses : ")
    
-   for j in xrange(1,6):
-      print pretty_state(p[-j][0], full=True)
+   for j in range(1,6):
+      print(pretty_state(p[-j][0], full=True))
    
 if __name__ == "__main__":
    main(sys.argv)

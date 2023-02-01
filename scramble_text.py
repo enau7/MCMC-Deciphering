@@ -20,14 +20,14 @@ def main(argv):
    filename = options.inputfile
    
    if options.inputfile is None:
-        print "File name not specified. Type -h for help."
+        print("File name not specified. Type -h for help.")
         sys.exit(2)
         
    char_to_ix, ix_to_char, tr, fr = compute_statistics(filename)
    text = list(open(filename, 'r').read())
    p_map = generate_random_permutation_map(char_to_ix.keys())
    scrambled_t = scramble_text(text, p_map)
-   print ''.join(scrambled_t)
+   print (''.join(scrambled_t))
    
 if __name__ == "__main__":
    main(sys.argv)

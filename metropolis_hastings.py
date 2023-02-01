@@ -1,4 +1,5 @@
 import numpy as np
+import time
 import random
 
 def metropolis_hastings(initial_state, proposal_function, log_density, iters=100, print_every=10, 
@@ -49,6 +50,7 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
     it = 0
     
     while it < iters:
+
         #propose a move
         new_state = proposal_function(state)
         p2 = log_density(new_state)
@@ -58,7 +60,7 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
         
         #accept the new move with probability p2-p1
         if p2-p1 > np.log(u):
-            
+
             #update the state
             state = new_state
             
@@ -85,7 +87,7 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
                 if pretty_state is not None:
                     s = "Current state : " + pretty_state(state)
                 
-                print("Entropy : ", -p1, ", Error : ", error, ", Acceptance : ", acceptance)
+                print("\n Entropy : ", -p1, ", Error : ", error, ", Acceptance : ", acceptance)
                 print(s)
                 
                 if acceptance < tolerance:
@@ -93,6 +95,9 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
                 
                 cnt = 0
                 accept_cnt = 0
+
+                #sleep to see output
+                time.sleep(1)
     
     if error_function is None:
         errors = None

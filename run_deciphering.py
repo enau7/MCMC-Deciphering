@@ -20,13 +20,13 @@ def main(argv):
                      help="file that needs to be decoded")
    
    parser.add_option("-e", "--iters", dest="iterations", 
-                     help="number of iterations to run the algorithm for", default=5000)
+                     help="number of iterations to run the algorithm for", default=5000000)
     
    parser.add_option("-t", "--tolerance", dest="tolerance", 
                      help="percentate acceptance tolerance, before we should stop", default=0.02)
    
    parser.add_option("-p", "--print_every", dest="print_every", 
-                     help="number of steps after which diagnostics should be printed", default=500)
+                     help="number of steps after which diagnostics should be printed", default=10000)
 
    (options, args) = parser.parse_args(argv)
 
@@ -62,10 +62,10 @@ def main(argv):
    p = list(zip(states, entropies))
    p.sort(key=lambda x:x[1])
    
-   print("Best Guesses : ")
+   # print("\n Best Guesses : ")
    
-   for j in range(1,6):
-      print(pretty_state(p[-j][0], full=True))
+   # for j in range(1,6):
+   #    print(pretty_state(p[-j][0], full=True))
    
 if __name__ == "__main__":
    main(sys.argv)

@@ -1,4 +1,5 @@
 import numpy as np
+import shutil
 import random
 from copy import deepcopy
 from copy import copy
@@ -107,9 +108,9 @@ def pretty_string(text, full=False):
     Pretty formatted string
     """
     if not full:
-        return ''.join(text[1:200]) + '...'
+        return ''.join(text[1:200]) #+ shutil.get_terminal_size().columns*'-'#'...'
     else:
-        return ''.join(text) + '...'
+        return ''.join(text) #+ shutil.get_terminal_size().columns*'-'#'...'
     
 def compute_statistics(filename):
     """

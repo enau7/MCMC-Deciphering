@@ -1,11 +1,1 @@
-Some thoughts on the course so far
-
- Quiz 1 was very fair in difficulty i think, not entirely free but was not crazy difficult, hope future quizzes can be the same
-
- Prefer to read new material, I really like the examples given in class and they transfer to the homework pretty well
-
- Homework seems a little difficult  timeconsuming at times
-
- Prefer more theory although some coding would be cool as well
-
- Prefer project be on an application of Stochastic processes, sort of like the ones covered in class
+I would like to cover a new application, summarize it, and present it pretaped.

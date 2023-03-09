@@ -1,5 +1,7 @@
-I would like to cover a new application.
+Coding oriented would be most interesting. The focus on the applicability of the theory has helped me better understand it, as with the google page rank example.
 
-I prefer to solve a problem on my own.
+I think that proposing a new problem to solve and then providing the theory and materials necessary to solve the problem would be cool. Then when reading through the materials, you can examine how this theory might apply to the real world situation, or how to use it to build an effective algorithm. This emphasizes critical thinking skills rather than memorization or regurgitation.
 
-I prefer a written report.
+
+
+written report with option to present in person, for extra credit or just for fun

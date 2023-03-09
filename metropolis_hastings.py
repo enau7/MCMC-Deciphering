@@ -3,7 +3,7 @@ import time
 import shutil
 import random
 
-def metropolis_hastings(initial_state, proposal_function, log_density, iters=100, print_every=10, 
+def metropolis_hastings(initial_state, proposal_function, log_density, iters=1000, print_every=10, 
                         tolerance=0.02, error_function=None, pretty_state=None):
     """
     Runs a metropolis hastings algorithm given the settings
@@ -83,7 +83,7 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
                 errors.append(error)
                 
             #print if required
-            if -p1<0.99*entropy_print:#it%print_every == 0:
+            if -p1<0.995*entropy_print:#it%print_every == 0:
                 entropy_print = -p1
                 acceptance = float(accept_cnt)/float(cnt)
                 s = ""
@@ -101,7 +101,7 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
                 accept_cnt = 0
 
                 #sleep to see output
-                time.sleep(.5)
+                time.sleep(.1)
     
     if error_function is None:
         errors = None

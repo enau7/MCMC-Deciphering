@@ -164,7 +164,7 @@ def propose_a_move(state):
     new_state = {}
     for key, value in state.items():
         new_state[key] = value
-    new_state["permutation_map"] = move_one_step(state["permutation_map"])s
+    new_state["permutation_map"] = move_one_step(state["permutation_map"])
     return new_state
 
 def pretty_state(state, full=True):

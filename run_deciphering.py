@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from metropolis_hastings import *
+import shutil
 from deciphering_utils import *
 
 #!/usr/bin/python
@@ -20,7 +21,7 @@ def main(argv):
                      help="file that needs to be decoded")
    
    parser.add_option("-e", "--iters", dest="iterations", 
-                     help="number of iterations to run the algorithm for", default=5000000)
+                     help="number of iterations to run the algorithm for", default=5000)
     
    parser.add_option("-t", "--tolerance", dest="tolerance", 
                      help="percentate acceptance tolerance, before we should stop", default=0.02)
@@ -58,14 +59,18 @@ def main(argv):
       states.extend(state)
       entropies.extend(lps)
       i += 1
+      if(i<3): input("\n Starting in a new Random State...")
+
    
    p = list(zip(states, entropies))
    p.sort(key=lambda x:x[1])
    
-   # print("\n Best Guesses : ")
+   print(" Best Guesses : \n")
    
-   # for j in range(1,6):
-   #    print(pretty_state(p[-j][0], full=True))
+   for j in range(1,4):
+      print(f"Guess {j}: \n")
+      print(pretty_state(p[-j][0], full=True))
+      print(shutil.get_terminal_size().columns*'*')
    
 if __name__ == "__main__":
    main(sys.argv)

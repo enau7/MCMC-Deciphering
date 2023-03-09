@@ -1,1 +1,3 @@
-I would like to cover a new application, summarize it, and present it pretaped.
+The course has been a good pace so far, and the lectures and posted materials are very helpful. However, I believe that including the answers and the relevant work used to answer the questions asked on the lecture slides would be more helpful when I am reviewing the slides for homework and exams. It would help better explain the material and also helps me better understand the concepts.
+
+For the project, I would like to do something that could expose me to the work of statisticians and data scientists, that is relevant to the statistics field. I would like to cover a new application, which could involve coding. I would prefer to try to solve a problem on my own. I also am interested in writing a written report rather than doing a presentation.

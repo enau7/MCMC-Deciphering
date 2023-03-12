@@ -93,10 +93,8 @@ is handled by the line: `if p2-p1 > np.log(u)` in the `metropolis_hastings.py` f
 
 * This code was written by what seems to be a software engineer.  As such, many of the operations are extracted to their own methods to be as generic as possible.  It is, for instance, possible to pass in a different way to create permutations.  First, lets understand how `metropolis_hastings` knows what it needs to do this.  `metropolis_hastings` is called in the `run_deciphering.py` file (the one you actually run in python).  In it, you see: 
 
-  ```python3
-  metropolis_hastings(initial_state, proposal_function=propose_a_move, log_density=compute_probability_of_state, 
-  iters=iters, print_every=print_every, tolerance=tolerance, pretty_state=pretty_state)
-  ```
+`metropolis_hastings(initial_state, proposal_function=propose_a_move, log_density=compute_probability_of_state,iters=iters, print_every=print_every, tolerance=tolerance, pretty_state=pretty_state)`
+
   In this block, what we care about are `proposal_function` and and `log_density`.  `proposal_function` constructs the permutations, whereas `log_density` assigns a probability to those permutations.  We will cover `log_density` later, because it uses some slight modifications that make it better for the computer. This code roughly corresponds to our definition of $q(\sigma,\sigma')$:
   ![q_prob](images/q_prob.png)
 

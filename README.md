@@ -80,7 +80,7 @@ this project.
 
 To Get the Code
 =================
-In order to get the code, open the repository, linked [here](https://github.com/alexbstl/MCMC-Deciphering/tree/python3). You can either clone this repository via Git, or Go to Code > Download Zip.
+In order to get the code, open the repository, linked [here](https://github.com/alexbstl/MCMC-Deciphering/tree/python3). You can either clone this repository via Git, or Go to Code > Download Zip.  The repository can also be found at https://github.com/alexbstl/MCMC-Deciphering/tree/python3.  Make Sure the branch is `python3`! (The link should go there by default).
 
 
 Code Walkthrough

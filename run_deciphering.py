@@ -59,7 +59,7 @@ def main(argv):
       states.extend(state)
       entropies.extend(lps)
       i += 1
-      if(i<3): input("\n Starting in a new Random State...")
+      #if(i<3): input("\n Starting in a new Random State...")
 
    
    p = list(zip(states, entropies))

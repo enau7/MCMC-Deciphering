@@ -129,6 +129,7 @@ def compute_statistics(filename):
     frequency_statistics[i]: gives number of times character i appears in the document
     """
     data = open(filename, 'r').read() # should be simple plain text file
+
     chars = list(set(data))
     N = len(chars)
     char_to_ix = {c : i for i, c in enumerate(chars)}

@@ -1,1 +1,5 @@
-I think so far the coding part is good, and I would like to learn more about the application of stochastic processes. I think the final project would be better if it’s a written report, and the topic can be solving some real world problems using stochastic processes, such as related to financial and stuff, so in this case we all get to know when to use it in the industry.
+The project could be about explaining an application and put examples with coding results.
+
+Learning new material sounds interesting because we can research how an application is useful for a field of study of our reference. We can also show examples.
+
+I strongly prefer a written report because it is time efficient and not as complicated to set up as a presentation. A written report can be accessed multiple times by the author and will definitely include more information. A long presentation does not have this advantage since the audience will most likely not pay attention to all details in one sitting. To understand a section, it is easier to read it multiple times.

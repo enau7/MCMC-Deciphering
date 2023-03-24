@@ -1,7 +1,9 @@
 import numpy as np
+import time
+import shutil
 import random
 
-def metropolis_hastings(initial_state, proposal_function, log_density, iters=100, print_every=10, 
+def metropolis_hastings(initial_state, proposal_function, log_density, iters=1000, print_every=10, 
                         tolerance=0.02, error_function=None, pretty_state=None):
     """
     Runs a metropolis hastings algorithm given the settings
@@ -47,8 +49,10 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
     error = -1
     states = [initial_state]
     it = 0
-    
+    prints = 0
+    entropy_print = 100000
     while it < iters:
+
         #propose a move
         new_state = proposal_function(state)
         p2 = log_density(new_state)
@@ -58,7 +62,7 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
         
         #accept the new move with probability p2-p1
         if p2-p1 > np.log(u):
-            
+
             #update the state
             state = new_state
             
@@ -79,20 +83,25 @@ def metropolis_hastings(initial_state, proposal_function, log_density, iters=100
                 errors.append(error)
                 
             #print if required
-            if it%print_every == 0:
+            if -p1<0.995*entropy_print:#it%print_every == 0:
+                entropy_print = -p1
                 acceptance = float(accept_cnt)/float(cnt)
                 s = ""
                 if pretty_state is not None:
-                    s = "Current state : " + pretty_state(state)
-                
-                print "Entropy : ", -p1, ", Error : ", error, ", Acceptance : ", acceptance
-                print s
+                    s = "\n" + pretty_state(state)
+                print(shutil.get_terminal_size().columns*'-')
+                print("\n Entropy : ", round(p1,4), ", Iteration : ", it, ", Acceptance Probability : ", round(acceptance,4))
+                print(shutil.get_terminal_size().columns*'-')
+                print(s)
                 
                 if acceptance < tolerance:
                     break
                 
                 cnt = 0
                 accept_cnt = 0
+
+                #sleep to see output
+                time.sleep(.1)
     
     if error_function is None:
         errors = None

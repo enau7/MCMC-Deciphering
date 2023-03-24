@@ -1,4 +1,5 @@
 import numpy as np
+import shutil
 import random
 from copy import deepcopy
 from copy import copy
@@ -25,7 +26,7 @@ def generate_random_permutation_map(chars):
     cx2 = az_list()
     random.shuffle(cx2)
     p_map = generate_identity_p_map(chars)
-    for i in xrange(len(cx)):
+    for i in range(len(cx)):
         p_map[cx[i]] = cx2[i]
         
     return p_map
@@ -107,9 +108,9 @@ def pretty_string(text, full=False):
     Pretty formatted string
     """
     if not full:
-        return ''.join(text[1:200]) + '...'
+        return ''.join(text[1:200]) #+ shutil.get_terminal_size().columns*'-'#'...'
     else:
-        return ''.join(text) + '...'
+        return ''.join(text) #+ shutil.get_terminal_size().columns*'-'#'...'
     
 def compute_statistics(filename):
     """

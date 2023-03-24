@@ -1,3 +1,3 @@
-I prefer more coding oriented projects and instructions. It will be better if you can assign us some problem and teaches us to solve the problem.
+I would like a coding oriented project because I want to apply what weve been learning in a realworld project. Actually, I already have a coding project in mind related to a project in PSTAT 131. I have data about tournament rankings and I want to rank the players by skill, but my problem is that there are many tournaments and most players are not necessarily in the same tournaments. I suspect I may be able to model this as a directed graph, and find the stationary distribution of this graph to rank the players.
 
-Also, I prefer a presentation rather than written work, because it can make us more engaged.
+Usually I do better that solving a problem than reading and summarizing, so I would prefer to solve a problem on my own. I would prefer a written report, but if it were to be a presentation, I would prefer it to be pretaped.

@@ -1,0 +1,235 @@
+
+I would like to cover a new application in the project. I prefer more to solve a problem than reading new material. Also I believe writing a report is a better form of presenting the project for me.
+Ive enjoyed the format of this class so far. The pacing has been just right and, at least currently, I feel like I really understand the material.
+
+
+
+With regards to the final project, I would much prefer to actually solve a problem, whether it be through implementing code or just doing a lot of math, instead of just reading something and talking about what I learned. Id also rather do a written report over a presentation, since its easier for me to explain mathtechnical details via writing.
+In terms of the form of the project, I would like to cover a new application. I prefer to try to solve a problem on my own. Also, I prefer a presentation that is pretaped.
+So far the course is manageable. The tas office hours are very helpful. I would prefer a coding oriented project or to learn more theory. I would also prefer to do pretaped presentation and try to solve a problem of my own.
+I would like a coding oriented project because I want to apply what weve been learning in a realworld project. Actually, I already have a coding project in mind related to a project in PSTAT 131. I have data about tournament rankings and I want to rank the players by skill, but my problem is that there are many tournaments and most players are not necessarily in the same tournaments. I suspect I may be able to model this as a directed graph, and find the stationary distribution of this graph to rank the players.
+
+Usually I do better that solving a problem than reading and summarizing, so I would prefer to solve a problem on my own. I would prefer a written report, but if it were to be a presentation, I would prefer it to be pretaped.
+I think the course is going well so far. I like how the examples in class can usually be drawn out in a simple manner so we can more easily understand them, and then apply them to more complex topics. I would prefer learning more about a new theory or learning how something has other applications. I would be okay with reading and summarizing material, or reading material and using it to solve the problem. I would like to write a written report instead of doing a presentation, but honestly either would be fine with me. This class is really interesting so far, and I love how we talk about how these processes are used in everyday life, like with the Google example.
+I prefer a more codingoriented project.
+Course is somewhat difficult to keep up with since returning to school, however, manageable. For the project, I would like to cover a new application, read new material and summarize it, and create a presentation that is pretaped.
+ I love when you explain some concepts with realworld examplesapplications, which make the idea much easier to understand and memorize. Thank you!!!
+
+ I would like to cover a new application.
+
+ I prefer to read new material and summarize it.
+
+ I think a pretaped presentation would be really interesting to make since we can edit or make it more creative as an educational video. 
+I prefer a pretaped presentation over a written report and I prefer solving problems over reading. And I prefer covering more applications, probably some applications in finance, in class rather than deep diving into theories
+The course has been a good pace so far, and the lectures and posted materials are very helpful. However, I believe that including the answers and the relevant work used to answer the questions asked on the lecture slides would be more helpful when I am reviewing the slides for homework and exams. It would help better explain the material and also helps me better understand the concepts.
+
+For the project, I would like to do something that could expose me to the work of statisticians and data scientists, that is relevant to the statistics field. I would like to cover a new application, which could involve coding. I would prefer to try to solve a problem on my own. I also am interested in writing a written report rather than doing a presentation.
+I dont prefer a coding oriented project. I prefer the project can be based on the knowledge learned in this class. I would rather read new material and summarize it than solve a problem on my own. Besides, the format of the project I prefer to write a report instead of a presentation. For this class, I hope to explain more example questions in detail in the lecture to facilitate the understanding and application of concepts and theories, and questions in quiz are also needed to be explained.
+I prefer to read new material and summarize it
+Ive enjoyed seeing the theory that were learning getting tied back to the example of Google PageRank. For the rest of the course, it would be great to see examples like this showing the application of the theory. For the project, personally I would enjoy a more coding oriented project. Because of this, I feel like trying to solve a problem would fit into the project. I would prefer a written reportmaybe it could be in the form of a powerpoint, with a supplemental short report.
+For now, this course is good for me, but the quiz is a little bit hard, if the quiz is regrading the definition will be better.
+
+
+I am not a coding person so I prefer the project to be more fun and cover some new material or theory. I do like derivation if we are able to get hints from the TAs and the professor.
+
+I dont like reading. Watching videos will be perfectly fine.
+
+I think a written report is fine as long as it does not have to be too long. Presentation is also fine.
+
+I am pretty lost in the course so far. I wonder if we can have some 11 office hours with TAs and the professor. Also maybe provide some guidance in studying on our own.
+ I would prefer a coding oriented project based off of a previous topic in class
+
+ I would like to solve a problem on my own with a group
+
+ I think a written report would be more formal and easier to prepare, with a presentation time might be too limited
+1. New application since it sounds more interesting.
+
+
+
+2. Solve a problem on my own.
+
+
+
+3. Written report. Presentation is horrible.
+I would prefer to have a more coding oriented project as it allows for students to bulk up their resumes. In my opinion, this would be harder to implement if we were sticking with group projects since code can get quite unique and complicated to understand for other group members who didnt write the code and different students may have a better understanding of different languages. If the final project is more coding oriented, I think it would be best to try and solve a problem or apply what we already learned to a problem. Lastly, I personally prefer a report since I cannot stand public speaking. Moreover, presenting or discussing a report with a recruiter or employer looks a lot more formal than talking about google slides in my opinion.
+The course is really hard, and i am not good at coding, so less code is better for me.
+
+I prefer to read new material and solve it on my own.
+
+I prefer a written report.
+
+hope the project wont be as hard as hw.
+I prefer a more coding oriented project
+The project could be about explaining an application and put examples with coding results.
+
+Learning new material sounds interesting because we can research how an application is useful for a field of study of our reference. We can also show examples.
+
+I strongly prefer a written report because it is time efficient and not as complicated to set up as a presentation. A written report can be accessed multiple times by the author and will definitely include more information. A long presentation does not have this advantage since the audience will most likely not pay attention to all details in one sitting. To understand a section, it is easier to read it multiple times.
+Hello the course is going not bad, I would like to practice more examples that would be present in test or homework because they are sometimes very hard to solve. For the final project a presentation would be pretty cool, but I do not mind.
+Coding oriented
+
+solve a problem on my own
+
+
+
+presentation. in person.
+I like to learn theories and solve problems by myself. I prefer video lectures.
+For the project I would prefer to cover a new application. I think that a coding oriented project would hinder my ability to actually learn the concept and focus on just figuring out how to put it into code. My weakness is definitely coding but I dont think a project worth 15 is where I could practice and learn efficiently.
+
+I would prefer to read new material and summarize it to learn a more topics in Stochastic Processes.
+
+I would prefer a written report so that we can refine the details of our projects easily as well as practicing LaTeX formatting. this is my first time using it It would avoid having nervous hiccups affecting our grade while presenting. I also would not mind a pretaped presentation but written presentation would be most preferred
+I prefer to cover a new application and then learn more theory.
+
+I like to read new material and summarize it in a group.
+
+I prefer to provide a written report since it could show clearer logic in the work. But I also would like to hear other peoples presentations which I can learn from. So I think maybe it would be better if we can choose.
+Coding oriented would be most interesting. The focus on the applicability of the theory has helped me better understand it, as with the google page rank example.
+
+I think that proposing a new problem to solve and then providing the theory and materials necessary to solve the problem would be cool. Then when reading through the materials, you can examine how this theory might apply to the real world situation, or how to use it to build an effective algorithm. This emphasizes critical thinking skills rather than memorization or regurgitation.
+
+
+
+written report with option to present in person, for extra credit or just for fun
+I would like to cover a new application, summarize it, and present it pretaped.
+I would prefer us to cover a new application.
+
+I would prefer us to read new material and summarize it.
+
+I would prefera written report since it is hard to predict what I would score on a presentation.
+
+Lectures are very helpful, sections are a little too fast.
+I would prefer a more coding oriented project where we can utilize coding languages like R and Python. I would prefer to try to solve a problem on my own. I would prefer to have a written report with graphs and analysis. A suggestion that I have for the class is to explain concepts more in detail in lecture. Often times, I felt like some parts are skimmed through. Even though some materials were taught in 160A, it would be nice to reinforce on those concepts as a class.
+I prefer more coding oriented project. That will help me with improving my coding skills. The TA and professor are very nice.
+I would prefer a more coding oriented project to cover an application of the topics learned.
+coding and application
+
+written report  pretaped
+ I prefer learn more theories and new concepts.
+
+ I prefer to read new material and summarize it with group members.
+
+ I prefer a written report much rather than a presentation.
+I am a computer science major so I would prefer the coding aspect of projects.
+
+I would prefer to try to solve a problem on my own.
+
+I would prefer to make a pretaped presentation!
+I prefer more coding oriented projects and instructions. It will be better if you can assign us some problem and teaches us to solve the problem.
+
+Also, I prefer a presentation rather than written work, because it can make us more engaged.
+I would prefer more coding,
+
+
+
+reading new material and summarize it.
+
+
+
+I would prefer a written report
+1. I would prefer a more codingoriented project.
+
+2. I would prefer to read new material and summarize it.
+
+3. I would prefer a written report.
+I thought the class was going with a fast pace last week, but I think its good for now because the YouTube videos are great helps! Maybe its a class that we really need to pay more efforts after class. The coding is appropriate now. Most are what Ive seen in PSTAT 160A. Despite that, Id prefer less coding in homework. However, if TAs can cover some syntax in sections, I think more coding also works. Alex did a great job applying the theories to real life problems, so I think Im comfortable with the proportion of theories to applications. One small advice could be to include review sessions or lectures before the Midterm since Im quite unsure about how well Ive digested the materials so far.
+
+For the final project, I prefer to cover a new application. Try to solve a problem on my own seems more interesting to me compared to read new materials and summarize. Hope the problem is not hard though. I prefer a written report if the presentation is inperson. But if the presentation is designed to be pretaped, I definitely prefer a presentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I would prefer having an option for a coding oriented project or reading new material and writing a paper about it. The course so far has been appropriately paced.
+I would prefer a mix of both coding and application of new theory but I dont mind coding. I also dont really care about sumarizing new material or solving my own, but I think it would be fun to interpret and try to explain new material. The only one I feel strongly about is the last option, I would prefer a pre taped presentation or a written report. I would also prefer if the final project was in the same homework group setting we have been in up until now.
+I would prefer a more coding oriented project so that I can put it on my resume. In terms of material, if we do a coding based project, Id rather summarize rather than solve AND code. However, if we did a presentation, I would be fine with solving a problem. If we have a coding project, it might be nice to have a small presentation component or a google drive where we can see everyones work. Inperson presentations may be difficult because it takes class time.
+More coding and application.
+
+I think I am having a hard time on solving the problem, same for homework.
+
+I am fine with both. I would say if I would love to do it in class if theres extra credit. I think I will need tons of extra credit in this class.
+
+
+I would like to have a coding oriented project, which may be the application for the material we learned, because it would be more practical and a good integration of theory and application. Also I love solve a problem on my own. I prefer a written report because a presentation may cause a time conflict and require much work of coordination. Rather, a written report would be more flexible, which is good during the final week.
+I would like to cover a new application.
+
+I prefer to solve a problem on my own.
+
+I prefer a written report.
+Some thoughts on the course so far
+
+ Quiz 1 was very fair in difficulty i think, not entirely free but was not crazy difficult, hope future quizzes can be the same
+
+ Prefer to read new material, I really like the examples given in class and they transfer to the homework pretty well
+
+ Homework seems a little difficult  timeconsuming at times
+
+ Prefer more theory although some coding would be cool as well
+
+ Prefer project be on an application of Stochastic processes, sort of like the ones covered in class
+I would prefer a more application based project, the coding on hw1 was bit hard, I was unable to solve it myself but eventually after working with my teammates we solved it together. So far Im really enjoying the applications of the concepts learned in class, including the movie references! its a nice change because my previous statistics courses were heavily theory based. As of now I would also prefer reading new material and making sense of it, as this seems to be helpful for me to digest the information in class. Lastly, I would prefer a written report, though since I am interested in artvisuals, if allowed I may incorporate a creative aspect to the project report.
+I really enjoy the course so far and find the material challenging but also fascinating. I would like a coding oriented project but I do not have a lot of experience and may struggle. I think that solving a new problem or creating a simulation would be really cool. Lastly, I would like to do a recorded presentation or a write up rather than an in person presentation.
+I would like to cover a new application or learn more theory. For the final project, I prefer to have a presentation with pretaped.
+To be completely honest, I am not very good at coding and my homework group has done the majority of the coding for me. I would be interested in learning python as I am currently using it for another class as well, but do not feel very confident in my abilities and worry that a super codingheavy project would be very difficult for me. I have enjoyed the theory of this class greatly and would prefer to learn more about theory rather than application. The class gets very interesting when we discuss realworld examples, mainly the Google PageRank stuff. It makes it so much easier to understand and I find it much more valuable than doing computations without conceptualization. I vote that we continue learning theory and summarizing. As for a final project, I would also prefer a written report. Finals tend to get very stressful for me and there is a lot of beauty in writing something out, turning it in, and not having to deal with testpresentation anxiety.
+
+I have greatly enjoyed this course so far and I am looking forward to continuing it. Thank you so much for your hard work.
+Although the content itself is challenging, I have enjoyed this course so far. I think lectures are really interesting and I like how things are applied to real world examples. I also enjoy working with my HW group and putting our minds together.
+
+For the final project, I think a presentation on a problem or theory would be interesting. I think it would also be cool to apply things weve learned in class to a real world example for our own projects. Overall, this course is challenging but I enjoy it.
+ As Im striving to work in the tech industry, more codingoriented projects would help sharpen my Python skills. I would also like to see shorter and easier coding questions outside of boss mode in homework.
+
+ I like to solve problems on my own. Im more of a handson person than a reader.
+
+ I dont mind whether the report is going to be written or presented. However, if the presentation is the case, then I would prefer it to be in person.
+
+ I like how the Google search analogy helped me understand the mathematical material better. I would like more reallife application analogies in the future.
+I think so far the coding part is good, and I would like to learn more about the application of stochastic processes. I think the final project would be better if its a written report, and the topic can be solving some real world problems using stochastic processes, such as related to financial and stuff, so in this case we all get to know when to use it in the industry.

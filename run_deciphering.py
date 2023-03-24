@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from metropolis_hastings import *
+import shutil
 from deciphering_utils import *
 
 #!/usr/bin/python
@@ -26,7 +27,7 @@ def main(argv):
                      help="percentate acceptance tolerance, before we should stop", default=0.02)
    
    parser.add_option("-p", "--print_every", dest="print_every", 
-                     help="number of steps after which diagnostics should be printed", default=500)
+                     help="number of steps after which diagnostics should be printed", default=10000)
 
    (options, args) = parser.parse_args(argv)
 
@@ -34,11 +35,11 @@ def main(argv):
    decode = options.decode
    
    if filename is None:
-      print "Input file is not specified. Type -h for help."
+      print("Input file is not specified. Type -h for help.")
       sys.exit(2)
 
    if decode is None:
-      print "Decoding file is not specified. Type -h for help."
+      print("Decoding file is not specified. Type -h for help.")
       sys.exit(2)
 
    char_to_ix, ix_to_char, tr, fr = compute_statistics(filename)
@@ -53,19 +54,23 @@ def main(argv):
       iters = options.iterations
       print_every = int(options.print_every)
       tolerance = options.tolerance
-      state, lps, _ = metropolis_hastings(initial_state, propose_a_move, compute_probability_of_state, 
+      state, lps, _ = metropolis_hastings(initial_state, proposal_function=propose_a_move, log_density=compute_probability_of_state, 
                                             iters=iters, print_every=print_every, tolerance=tolerance, pretty_state=pretty_state)
       states.extend(state)
       entropies.extend(lps)
       i += 1
+      #if(i<3): input("\n Starting in a new Random State...")
+
    
-   p = zip(states, entropies)
+   p = list(zip(states, entropies))
    p.sort(key=lambda x:x[1])
    
-   print "Best Guesses : "
+   print(" Best Guesses : \n")
    
-   for j in xrange(1,6):
-      print pretty_state(p[-j][0], full=True)
+   for j in range(1,4):
+      print(f"Guess {j}: \n")
+      print(pretty_state(p[-j][0], full=True))
+      print(shutil.get_terminal_size().columns*'*')
    
 if __name__ == "__main__":
    main(sys.argv)

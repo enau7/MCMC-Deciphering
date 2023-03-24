@@ -2,26 +2,12 @@ import matplotlib.pyplot as plt
 from metropolis_hastings import *
 import shutil
 from deciphering_utils import *
-import pandas as pd
+from word_check import *
 
 #!/usr/bin/python
 
 import sys
 from optparse import OptionParser
-
-def weight_dict_update(d, key, value):
-   if not (key in d.keys()):
-      d[key] = []
-   d[key] += [value]
-
-def getmode(lst):
-   outdict = dict()
-   for k in lst: # initialize dict with zeros
-      outdict[k] = 0
-   for k in lst: # increment
-      outdict[k] += 1
-   # return most frequent element
-   return sorted(outdict.keys(), key = lambda x: outdict[x], reverse=True)[0]
 
 def main(argv):
    inputfile = None
@@ -79,71 +65,24 @@ def main(argv):
    p = list(zip(states, entropies))
    p.sort(key=lambda x:x[1])
    
-   print(" Best Guesses : \n")
+   # print(" Best Guesses : \n")
    
-   for j in range(1,4):
-      print(f"Guess {j}: \n")
-      print(pretty_state(p[-j][0], full=True))
-      print(shutil.get_terminal_size().columns*'*')
+   # for j in range(1,4):
+   #    print(f"Guess {j}: \n")
+   #    print(pretty_state(p[-j][0], full=True))
+   #    print(shutil.get_terminal_size().columns*'*')
 
    bestguess = pretty_state(p[-1][0],full=True) # Gets the best guess
-   with open("modData/frequent_words.txt") as f:
-     freq_words = [line.rstrip('\n') for line in f]
 
-   output_map = {} # This will be a map that sends what we have now to what we thing the result should be.
-
-   # First, we increment along to get a word.
-   i = 0
-   length = len(bestguess)
-   while i < length:
-
-      while (i < length) and (not bestguess[i].isalpha()):
-         i += 1
-
-      word = ""
-      start_index = i
-
-      while (i < length) and (bestguess[i].isalpha()):
-         word += bestguess[i]
-         i += 1
-      
-      end_index = i
-
-      if word == "":
-         break
-      
-      if not word[0].isupper():
-         continue
-      
-      # If the word we pass in is already an english word, 
-      # it's probably a bad idea to make the swap, so i'll continue.
-
-      # I will, however, add itself as a weight to the final dictionary.
-      if word.lower() in freq_words:
-         weight_dict_update(output_map, word[0], word[0])
-         continue
-
-      # We now have an upper-case word.
-
-      for check in freq_words:
-         if word[1:] == check[1:]:
-            weight_dict_update(output_map, word[0], check[0].upper())
-
-   # Now, we our dictionary. We just need to send the values we have to the values we expect.
-
-   output = ""
-   for k in bestguess:
-      if k not in output_map.keys():
-         output += k
-      else:
-         output += getmode(output_map[k])
-
+   print("Raw Best Guess: \n")
+   print(shutil.get_terminal_size().columns*'*')
+   print(bestguess)
+   print(shutil.get_terminal_size().columns*'*')
 
    print("Transformed Best Guess: \n")
-   print(output)
-         
-               
-
+   print(shutil.get_terminal_size().columns*'*')
+   print(word_check_transform(bestguess))
+   print(shutil.get_terminal_size().columns*'*')
    
 if __name__ == "__main__":
    main(sys.argv)
